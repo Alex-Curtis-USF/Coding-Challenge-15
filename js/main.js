@@ -1,3 +1,4 @@
+// Task 1
 const assets = [
     {
         id: 1,
@@ -29,7 +30,7 @@ const assets = [
     }
 ];
 
-// Returns asset object if found, undefined otherwise
+// Returns assets
 const getAssetById = (id) => {
     return assets.find(asset => asset.id === id);
 };
